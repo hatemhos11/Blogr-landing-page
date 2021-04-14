@@ -33,7 +33,7 @@ img {
 header#heading {
   position: relative;
   height: 600px;
-  background: url(images/bg-pattern-intro.svg) 35% 50% no-repeat;
+  background: url(../images/bg-pattern-intro.svg) 35% 50% no-repeat;
   border-bottom-left-radius: 100px;
 }
 header#heading::after {
@@ -349,7 +349,7 @@ header#heading::after {
 /* ----------------------------------Start Sec2------------------------------------ */
 section#sec-2 {
   content: "";
-  background: #1e2047ea url(images/bg-pattern-circles.svg) -35% 80% no-repeat;
+  background: #1e2047ea url(../images/bg-pattern-circles.svg) -35% 80% no-repeat;
   border-radius: 0 100px 0 100px ;
   width: 100%;
   height: 415px;  
@@ -362,7 +362,7 @@ section#sec-2 .container {
   grid-template-areas: "imggg para";
 }
 section#sec-2 .overlay-img {
-  background: url(images/illustration-phones.svg) no-repeat;
+  background: url(../images/illustration-phones.svg) no-repeat;
   height: 600px;
   width: 100%;
   margin: -55px 0;
